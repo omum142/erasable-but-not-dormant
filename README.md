@@ -25,7 +25,7 @@ results/          # one JSON file per job (dataset, model, attack, poison rate, 
 
 The notebooks write `src/` modules into the runtime themselves, so no installation is needed in Colab. SynBkd and StyleBkd data are cloned from [thunlp/HiddenKiller](https://github.com/thunlp/HiddenKiller) and [thunlp/StyleAttack](https://github.com/thunlp/StyleAttack).
 
-Results in the paper were produced with PyTorch 2.14.1 (CUDA 13.0) and Python 3.13 on an NVIDIA A100 40GB; the full grid took about 16 GPU-hours.
+Results in the paper were produced with PyTorch 2.14.1 (CUDA 13.0) and Python 3.13 on an NVIDIA A100 40GB; the full grid took about 19 GPU-hours.
 
 ## Using the result files without rerunning
 
